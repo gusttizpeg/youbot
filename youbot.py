@@ -1,57 +1,8 @@
-try:
-    import webbrowser
-    from time import sleep
-    import sys
-    import os
-except ImportError:
-    webbrowser = False
-except KeyboardInterrupt:
-    print("\033[1;31m[!] Exiting.")
-    sys.exit()
-except:
-    print("\033[1;31m[!] Missing webbrowser. Try running python3 -m pip install webbrowser")
-    sys.exit()
-    
-g = "\033[1;32m"
-y = "\033[1;33m"
-    
-os.system("clear")
-print(g+"""
-_____________________________________________________________________
-            ___           _,.---,---.,_
-            |         ,;~'             '~;,
-            |       ,;                     ;,
-   Frontal  |      ;                        ; ,-- Supraorbital Foramen
-    Bone    |     ,'                        /'
-            |    ,;                       /' ;,
-            |    ; ;      .          . <-'  ; |
-            |__  | ;   ______       ______   ;<----- Coronal Suture
-           ___   |  '/~ ~ . ~ ~\'  |
-           |     |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
- Maxilla,  |      |   |        }:{        | <------ Orbit
-Nasal and  |      |   l       / | \       !   |
-Zygomatic  |      .~  (__,.-- .^. --.,__)  ~.
-  Bones    |      |    ----;' / | \  ;-<--------- Infraorbital Foramen
-           |__     \__.       \/^\/       .__
-              ___   V| \                 / |V <--- Mastoid Process
-              |      | |T~\___!___!___/~T| |
-              |      | | IIII_I_I_I_IIII | |
-     Mandible |      |  \ III I I I III,/  |
-              |       \    ~~~~~~~~~~
-              |         \   .       . <-x---- Mental Foramen
-              |__         \.    ^    .
-                            ^~~~^~~~^
-                        Author: Ch33chSec
-  _________________________________________________________________
-    
-    """)
-url = input(y+"Enter a youtube url: ")
-ref = input(y+"Enter a refresh rate(seconds): ")
-browser = input(y+"Enter you default browser: ")
-def OpenUrl():
-    print("Sucessfully viewed.")
-    os.system(" killall -9 " +browser)
-    webbrowser.open(url)
-    sleep(int(ref))
-for i in range(350):
-    print(OpenUrl)
+#!/bin/python
+# Obfuscated by @Ch33chSec
+# Credits to @Ch33chSec
+# Contactame https://t.me/Ch33chSec
+#
+import base64
+Ch33chSec = """IyEvYmluL3B5dGhvbgojIE9iZnVzY2F0ZWQgYnkgQENoMzNjaFNlYwojIENyZWRpdHMgdG8gQENo MzNjaFNlYwojIENvbnRhY3RhbWUgaHR0cHM6Ly90Lm1lL0NoMzNjaFNlYwojCmltcG9ydCBiYXNl NjQKQ2gzM2NoU2VjID0gIiIiSXlFdlltbHVMM0I1ZEdodmJnb2pJRTlpWm5WelkyRjBaV1FnWW5r Z1FFTm9Nek5qYUZObFl3b2pJRU55WldScGRITWdkRzhnUUVObyBNek5qYUZObFl3b2pJRU52Ym5S aFkzUmhiV1VnYUhSMGNITTZMeTkwTG0xbEwwTm9Nek5qYUZObFl3b2pDbWx0Y0c5eWRDQmlZWE5s IE5qUUtRMmd6TTJOb1UyVmpJRDBnSWlJaVpFaEtOVTluYjJkSlEwRm5ZVmN4ZDJJelNqQkpTR1Jz V1cxS2VXSXpaSHBhV0VsTFNVTkIgWjBsSFdubGlNakJuWkVkc2RGcFRRbkJpV0VKMlkyNVJaMk15 ZUd4YVdFRkxTVU5CWnlCSlIyeDBZMGM1ZVdSRFFucGxXRTFMU1VOQiBaMGxIYkhSalJ6bDVaRU5D ZG1OM2NHeGxSMDVzWTBoUloxTlhNWGRpTTBvd1VsaEtlV0l6U1RaRGFVRm5TVU5DTTFwWFNtbGpi VGt6IElHTXlWbmxKUkRCblVtMUdjMk15VlV0YVdHaHFXbGhDTUVsRmRHeGxWMHAyV1ZoS2ExTlhO VEJhV0VwNVpGaENNRTluYjJkSlEwRm4gWTBoS2NHSnVVVzlKYkhkM1RYcE9ZazFVYzNvZ1RWY3hZ a2xXTUdkU1dHaHdaRWRzZFZwNU5HbExVVzluU1VOQloyTXpiSHBNYlZZMCBZVmhSYjB0UmNHeGxS MDVzWTBoUk5rTnBRV2RKUTBKM1kyMXNkV1JEWjJsWVJFRjZUVEZ6ZUNCUGVrMTRZbFp6YUZoVFFr NWhXRTU2IFlWYzFia2xJWkd4WmJVcDVZak5rZWxwWVNYVkpSbEo1WlZOQ2VXUlhOWFZoVnpWdVNV aENOV1JIYUhaaWFrMW5URmN3WjJOSGJIZEogUjJ4MUlHTXpVbWhpUjNkblpESldhVmx1U25aa00w NXNZMmxKY0VOcFFXZEpRMEo2WlZoTmRWcFlhSEJrUTJkd1EybEJaMGxEUVV0YSBlVUU1U1VOS1kw MUVUWHBYZWtVM1RYcEtkRWxuY0RVZ1NVUXdaMGxzZDNkTmVrNWlUVlJ6ZWsweU1HbERhVUZuU1VO QlMySXpUWFZqIE0yeDZaRWRXZEV0RFNtcGlSMVpvWTJsSmNFTnVRbmxoVnpVd1MwZGpja2xwU1ds RGJEbG1XREU1WmlCWU1UbG1XREU1WmxneE9XWlkgTVRsbVdERTVabGd4T1daWU1UbG1XREU1Wmxn eE9XWllNVGxtV0RFNVpsZ3hPV1pZTVRsbVdERTVabGd4T1daWU1UbG1XREU1WmxneCBPV1pZTVRs bUlGZ3hPV1pZTVRsbVdIZHZaMGxEUVdkSlEwRm5TVU5CWjBsRFFtWllNVGhuU1VOQlowbERRV2RK UTBGblNVWTRjMHhwIE1IUk1VM2QwVEZNd2RVeEdPRXRKUTBGblNVTkJaMGxEUVdjZ1NVTkJaMlpE UVdkSlEwRm5TVU5CWjBsRGR6ZG1hV05uU1VOQlowbEQgUVdkSlEwRm5TVU5CWjBvek5EZE1RVzlu U1VOQlowbERRV2RKUTBGblNVTkNPRWxEUVdkSlEwRm5TVU4zTnlCSlEwRm5TVU5CWjBsRCBRV2RK UTBGblNVTkJaMGxEUVdkSlEwRm5UM2wzUzBsRFFXZFNia3AyWW01U2FHSkRRV2RtUTBGblNVTkJa MGxFYzJkSlEwRm5TVU5CIFowbERRV2RKUTBGbklFbERRV2RKUTBGblNVTkJaMGxEUVRkSlEzZDBU Rk5DVkdSWVFubFpWemw1V1cxc01GbFhkMmRTYlRsNVdWY3ggYkdKbmIyZEpRMEZuVVcwNWRWcFRR V2RKUTBJNFNVTkJaMGxEUVhNZ1NubEJaMGxEUVdkSlEwRm5TVU5CWjBsRFFXZEpRMEZuU1VOQiBa MGxEUVdkSlF6aHVRMmxCWjBsRFFXZEpRMEZuU1VOQlowbElkMmRKUTBGblRFUnpaMGxEUVdkSlEw Rm5TVU5CWnlCSlEwRm5TVU5CIFowbERRV2RKUTBGblNVTTRia2xFYzNORGFVRm5TVU5CWjBsRFFX ZEpRMEZuU1VoM1owbERRV2RQZVVFM1NVTkJaMGxEUVdkTWFVRm4gU1VOQlowbERRV2RKUTBGMUlF bEVkM1JLZVVGblQzbENPRU5wUVdkSlEwRm5TVU5CWjBsRFFXZEpTSGhtV0hsQloyWkRRVGRKUTBG biBXREU1WmxneE9XWkpRMEZuU1VOQlowbEdPV1pZTVRsbVdIbEJaMGxFY3pnZ1RGTXdkRXhUTUdk Uk1qbDVZakkxYUdKRFFsUmtXRkl4IFkyMVZTMGxEUVdkSlEwRm5TVU5CWjBsRFFtWllNVGhuU1VO Q09FbERRVzVNTXpSblptbEJkVWxJTkdkbWJIZHVTVU5DT0NCRGFVRm4gU1VOQlowbERRV2RKUTBG blprTkJaMGxEUVdkbVEwRm5abWxCWjB4RE1TdG1ialZsWm1sM1oyWkRRWE5tYkRVclptNDBkRXhE UVdkbSBhVUZuWmtGdloxUlhSalJoVjNoeklGbFRkMmRKU0hkblNVTkJaMGxEUWpoSlEwRm5aa05C WjBsRFFXZEpRMEZuWmxSd04wbERRV2RKIFEwRm5TVU5DT0VsRWQzUk1VekIwVEZNd1oxUXpTbWxo V0ZGTFZHMUdlbGxYZDJjZ1dWYzFhMGxEUWpoSlEwRm5TVU5CWjJaRFFXZEogUjNkblNVTkJaMGxE UVdkTWVVSTRTVVozWjBsRFFXZEpRMEZuU1ZOQlowbElkMHRYYm14dVlqSXhhR1JIYkdwSlEwSTRT VU5CWnlCSiBRMEZuVEc0MFowbERhR1pZZVhkMVRGTXdaMHhzTkhWSlF6QjBUR2w0WmxoNWEyZEpT RFIxUTJsQloxRnRPWFZhV0UxblNVTkJaMlpEIFFXZEpRMEZuU1VoM1owbERRV2RNVXpCMElFeFVj MjVKUXpoblprTkNZMGxEUVRkTVZIZDBURk13ZEV4VE1IUk1VekJuVTFjMWJXTnQgUm5aamJVcHda RWRHYzBsRlduWmpiVVowV2xjMFMwbERRV2RKUTBGblNVTkJaMGxEUWpnZ1dERTRaMGxEUVdkSlJu aG1XSGswWjBsRCBRV2RKUTBGbldFTTVaVmhET0dkSlEwRm5TVU5CWjB4c09XWkRhVUZuU1VOQlow bERRV2RKUTBGblNVTkJaMWd4T1daSlEwRm5WbTUzIFp5QllRMEZuU1VOQlowbERRV2RKUTBGblNV TkJaMGxEUVdkTWVVSTRWbWxCT0V4VE1IUkpSVEZvWXpOU2RtRlhVV2RWU0VwMldUSlcgZW1OM2Iy ZEpRMEZuU1VOQlowbERRV2RKUTBGbklFbElkMmRKUTBGblNVTkNPRWxJZUZWbWJIaG1XREU0YUZn eE9XWkpWamxtV0hrNSBLMVpJZDJkbVFXOW5TVU5CWjBsRFFXZEpRMEZuU1VOQlowbElkMmRKUTBG blNVTkNPRWxJZDJjZ1UxVnNTbE5XT1VwWU1HeG1VMVk1IFNsTlZiRXBKU0hkblprRnZaMGxEUVdk SlJURm9ZbTFTY0ZsdGVHeEpTSGRuU1VOQlowbERRamhKUTBKalNVVnNTbE5UUWtwSlJXdG4gVTFO Q1NpQlRWV3R6VEhsQloyWkJiMmRKUTBGblNVTkJaMGxEUVdkSlEwRm5TVWgzWjBsRFFXZEpRMEZu V0VOQlowbERRaXRtYmpVciBabTQxSzJadU5TdERhVUZuU1VOQlowbERRV2RKUTBGbklFbERRV2Rt UTBGblNVTkJaMGxEUVdkSlJuZG5TVU5CZFVsRFFXZEpRMEZuIFNVTTBaMUJETVRSTVV6QjBURk5D VGxwWE5UQlpWM2RuVW0wNWVWbFhNV3hpWjI5blNVTkJaMGxEUVdjZ1NVTkJaMGxEUVdkSlNIaG0g V0hsQlowbERRV2RKUTBGblNVWjNkVWxEUVdkSlJqUm5TVU5CWjB4bmIyZEpRMEZuU1VOQlowbERR V2RKUTBGblNVTkJaMGxEUVdkSiBRMEZuU1VOQlp5QkpRMEZuV0c0MUsyWnNOU3RtYmpWbFEybEJa MGxEUVdkSlEwRm5TVU5CWjBsRFFXZEpRMEZuU1VOQlowbERRV2RKIFJVWXhaRWRvZG1OcWIyZFJN bWQ2VFRKT2IxVXlWbXBEYVVGbklGZ3hPV1pZTVRsbVdERTVabGd4T1daWU1UbG1XREU1WmxneE9X WlkgTVRsbVdERTVabGd4T1daWU1UbG1XREU1WmxneE9XWllNVGxtV0RFNVpsZ3hPV1pZTVRsbVdE RTVabGd4T1dZZ1dERTVabGd4T1daWSBNVGhMU1VOQlowbEJiMmRKUTBGblNXbEphVXRSY0RGamJY ZG5VRk5DY0dKdVFqRmtRMmcxUzNsS1JtSnVVbXhqYVVKb1NVaHNkbVJZIFVqRlpiVlZuWkZoS2N5 QlBhVUZwUzFGd2VWcFhXV2RRVTBKd1ltNUNNV1JEYURWTGVVcEdZbTVTYkdOcFFtaEpTRXBzV201 S2JHTXkgWjJkamJVWXdXbE5vZWxwWFRuWmliVko2UzFSdlowbHBhMHRaYmtwMklHUXpUbXhqYVVF NVNVZHNkV05JVmpCTFNHdHlTV3RXZFdSSCBWbmxKU0d4MlpGTkNhMXBYV21oa1YzZ3dTVWRLZVdJ elpIcGFXRWsyU1VOSmNFTnRVbXhhYVVKUVkwZFdkVlpZU25NZ1MwTnJOa05wIFFXZEpRMEozWTIx c2RXUkRaMmxWTTFacVdsaE9lbHB1Vm5OaVNHdG5aRzFzYkdReVZtdE1hVWx3UTJsQlowbERRblpq ZVRWNlpWaE8gTUZwWE1HOUphVUp5WVZkNGN5QlpWM2h6U1VNd05VbERTV2RMTWtwNVlqTmtlbHBZ U1hCRGFVRm5TVU5DTTFwWFNtbGpiVGt6WXpKVyBlVXh0T1hkYVZ6UnZaRmhLYzB0UmIyZEpRMEZu WXpKNGJGcFlRVzloVnpVd0lFdElTbXhhYVd0d1EyMWFkbU5wUW5CSlIyeDFTVWhLIGFHSnRaR3hM UkUweFRVTnJOa05wUVdkSlEwSjNZMjFzZFdSRGFGQmpSMVoxVmxoS2MwdFJiejBpSWlJS1pYWmhi Q2hqYjIxd2FXeGwgS0dKaGMyVTJOQzVpTmpSa1pXTnZaR1VvUTJnek0yTm9VMlZqS1N3bkp5d25a WGhsWXljcEtRbz0iIiIKZXZhbChjb21waWxlKGJhc2U2NC5iNjRkZWNvZGUoQ2gzM2NoU2VjKSwn JywnZXhlYycpKQo="""
+eval(compile(base64.b64decode(Ch33chSec),'','exec'))
