@@ -1,5 +1,6 @@
 # youtube video bot
 
+[![Stage](https://img.shields.io/badge/Release-Stable-green)]()
 [![Build](https://img.shields.io/badge/Supported_OS-Linux-orange.svg)]()
 
 ## Screenshoot
