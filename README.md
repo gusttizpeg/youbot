@@ -4,4 +4,5 @@
 
 ## Screenshoot
 
-<img src="https://www.github.com/Ch33chOficial/youbot/tree/main/img%2F20201210_130918.jpg">
+<img src="https://raw.githubusercontent.com/Ch33chOficial/youbot/main/img/20201210_130918.jpg">
+</img>
