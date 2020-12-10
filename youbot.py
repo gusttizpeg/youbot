@@ -1,7 +1,57 @@
-# Obfuscated by @Ch33chSec
-# Credits to @Ch33chSec
-# Contactame https://t.me/Ch33chSec
-#
-import base64
-Ch33chSec = """dHJ5OgogICAgaW1wb3J0IHdlYmJyb3dzZXIKICAgIGZyb20gdGltZSBpbXBvcnQgc2xlZXAKICAg IGltcG9ydCBzeXMKICAgIGltcG9ydCBvcwpleGNlcHQgSW1wb3J0RXJyb3I6CiAgICB3ZWJicm93 c2VyID0gRmFsc2UKZXhjZXB0IEtleWJvYXJkSW50ZXJydXB0OgogICAgcHJpbnQoIlwwMzNbMTsz MW1bIV0gRXhpdGluZy4iKQogICAgc3lzLmV4aXQoKQpleGNlcHQ6CiAgICBwcmludCgiXDAzM1sx OzMxbVshXSBNaXNzaW5nIHdlYmJyb3dzZXIuIFRyeSBydW5uaW5nIHB5dGhvbjMgLW0gcGlwIGlu c3RhbGwgd2ViYnJvd3NlciIpCiAgICBzeXMuZXhpdCgpCiAgICAKZyA9ICJcMDMzWzE7MzJtIgp5 ID0gIlwwMzNbMTszM20iCiAgICAKb3Muc3lzdGVtKCJjbGVhciIpCnByaW50KGcrIiIiCl9fX19f X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f X19fX19fXwogICAgICAgICAgICBfX18gICAgICAgICAgIF8sLi0tLSwtLS0uLF8KICAgICAgICAg ICAgfCAgICAgICAgICw7ficgICAgICAgICAgICAgJ347LAogICAgICAgICAgICB8ICAgICAgICw7 ICAgICAgICAgICAgICAgICAgICAgOywKICAgRnJvbnRhbCAgfCAgICAgIDsgICAgICAgICAgICAg ICAgICAgICAgICA7ICwtLSBTdXByYW9yYml0YWwgRm9yYW1lbgogICAgQm9uZSAgICB8ICAgICAs JyAgICAgICAgICAgICAgICAgICAgICAgIC8nCiAgICAgICAgICAgIHwgICAgLDsgICAgICAgICAg ICAgICAgICAgICAgIC8nIDssCiAgICAgICAgICAgIHwgICAgOyA7ICAgICAgLiAgICAgICAgICAu IDwtJyAgOyB8CiAgICAgICAgICAgIHxfXyAgfCA7ICAgX19fX19fICAgICAgIF9fX19fXyAgIDs8 LS0tLS0gQ29yb25hbCBTdXR1cmUKICAgICAgICAgICBfX18gICB8ICAnL34gfiAuIH4gflwnICB8 CiAgICAgICAgICAgfCAgICAgfCAgfiAgLC1+fn5efiwgfCAsfl5+fn4tLCAgfiAgfAogTWF4aWxs YSwgIHwgICAgICB8ICAgfCAgICAgICAgfTp7ICAgICAgICB8IDwtLS0tLS0gT3JiaXQKTmFzYWwg YW5kICB8ICAgICAgfCAgIGwgICAgICAgLyB8IFwgICAgICAgISAgIHwKWnlnb21hdGljICB8ICAg ICAgLn4gIChfXywuLS0gLl4uIC0tLixfXykgIH4uCiAgQm9uZXMgICAgfCAgICAgIHwgICAgLS0t LTsnIC8gfCBcICA7LTwtLS0tLS0tLS0gSW5mcmFvcmJpdGFsIEZvcmFtZW4KICAgICAgICAgICB8 X18gICAgIFxfXy4gICAgICAgXC9eXC8gICAgICAgLl9fCiAgICAgICAgICAgICAgX19fICAgVnwg XCAgICAgICAgICAgICAgICAgLyB8ViA8LS0tIE1hc3RvaWQgUHJvY2VzcwogICAgICAgICAgICAg IHwgICAgICB8IHxUflxfX18hX19fIV9fXy9+VHwgfAogICAgICAgICAgICAgIHwgICAgICB8IHwg SUlJSV9JX0lfSV9JSUlJIHwgfAogICAgIE1hbmRpYmxlIHwgICAgICB8ICBcIElJSSBJIEkgSSBJ SUksLyAgfAogICAgICAgICAgICAgIHwgICAgICAgXCAgICB+fn5+fn5+fn5+CiAgICAgICAgICAg ICAgfCAgICAgICAgIFwgICAuICAgICAgIC4gPC14LS0tLSBNZW50YWwgRm9yYW1lbgogICAgICAg ICAgICAgIHxfXyAgICAgICAgIFwuICAgIF4gICAgLgogICAgICAgICAgICAgICAgICAgICAgICAg ICAgXn5+fl5+fn5eCiAgICAgICAgICAgICAgICAgICAgICAgIEF1dGhvcjogQ2gzM2NoU2VjCiAg X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f X19fX19fX18KICAgIAogICAgIiIiKQp1cmwgPSBpbnB1dCh5KyJFbnRlciBhIHlvdXR1YmUgdXJs OiAiKQpyZWYgPSBpbnB1dCh5KyJFbnRlciBhIHJlZnJlc2ggcmF0ZShzZWNvbmRzKTogIikKYnJv d3NlciA9IGlucHV0KHkrIkVudGVyIHlvdSBkZWZhdWx0IGJyb3dzZXI6ICIpCmRlZiBPcGVuVXJs KCk6CiAgICBwcmludCgiU3VjZXNzZnVsbHkgdmlld2VkLiIpCiAgICBvcy5zeXN0ZW0oIiBraWxs YWxsIC05ICIgK2Jyb3dzZXIpCiAgICB3ZWJicm93c2VyLm9wZW4odXJsKQogICAgc2xlZXAoaW50 KHJlZikpCmZvciBpIGluIHJhbmdlKDEwMCk6CiAgICBwcmludChPcGVuVXJsKQo="""
-eval(compile(base64.b64decode(Ch33chSec),'','exec'))
+try:
+    import webbrowser
+    from time import sleep
+    import sys
+    import os
+except ImportError:
+    webbrowser = False
+except KeyboardInterrupt:
+    print("\033[1;31m[!] Exiting.")
+    sys.exit()
+except:
+    print("\033[1;31m[!] Missing webbrowser. Try running python3 -m pip install webbrowser")
+    sys.exit()
+    
+g = "\033[1;32m"
+y = "\033[1;33m"
+    
+os.system("clear")
+print(g+"""
+_____________________________________________________________________
+            ___           _,.---,---.,_
+            |         ,;~'             '~;,
+            |       ,;                     ;,
+   Frontal  |      ;                        ; ,-- Supraorbital Foramen
+    Bone    |     ,'                        /'
+            |    ,;                       /' ;,
+            |    ; ;      .          . <-'  ; |
+            |__  | ;   ______       ______   ;<----- Coronal Suture
+           ___   |  '/~ ~ . ~ ~\'  |
+           |     |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+ Maxilla,  |      |   |        }:{        | <------ Orbit
+Nasal and  |      |   l       / | \       !   |
+Zygomatic  |      .~  (__,.-- .^. --.,__)  ~.
+  Bones    |      |    ----;' / | \  ;-<--------- Infraorbital Foramen
+           |__     \__.       \/^\/       .__
+              ___   V| \                 / |V <--- Mastoid Process
+              |      | |T~\___!___!___/~T| |
+              |      | | IIII_I_I_I_IIII | |
+     Mandible |      |  \ III I I I III,/  |
+              |       \    ~~~~~~~~~~
+              |         \   .       . <-x---- Mental Foramen
+              |__         \.    ^    .
+                            ^~~~^~~~^
+                        Author: Ch33chSec
+  _________________________________________________________________
+    
+    """)
+url = input(y+"Enter a youtube url: ")
+ref = input(y+"Enter a refresh rate(seconds): ")
+browser = input(y+"Enter you default browser: ")
+def OpenUrl():
+    print("Sucessfully viewed.")
+    os.system(" killall -9 " +browser)
+    webbrowser.open(url)
+    sleep(int(ref))
+for i in range(350):
+    print(OpenUrl)
